@@ -16,7 +16,7 @@
     <circle cx="564" cy="30" r="3"/>
     <circle cx="792" cy="30" r="3"/>
   </g>
-  <g fill="#596A78" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="1.2" text-anchor="middle">
+  <g fill="#6F7C88" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="1.2" text-anchor="middle">
     <text x="108" y="80">COLLECT</text>
     <text x="336" y="80">ANALYZE</text>
     <text x="564" y="80">DETECT</text>
