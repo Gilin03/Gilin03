@@ -79,7 +79,6 @@ interests:
       <td width="50%" valign="top">
         <p><sub><strong>NETWORK / INFRASTRUCTURE</strong></sub></p>
         <img src="https://img.shields.io/badge/TCP%2FIP-245C85?style=flat-square" alt="TCP/IP"> <img src="https://img.shields.io/badge/Docker-245C85?style=flat-square&amp;logo=docker&amp;logoColor=EAF2F8" alt="Docker">
-        <p><sub>NEXUS team environment</sub></p>
         <img src="https://img.shields.io/badge/Suricata-245C85?style=flat-square" alt="Suricata — team environment"> <img src="https://img.shields.io/badge/pfSense-245C85?style=flat-square&amp;logo=pfsense&amp;logoColor=EAF2F8" alt="pfSense — team environment">
       </td>
     </tr>
@@ -96,7 +95,6 @@ interests:
         <img src="https://img.shields.io/badge/Supabase-344454?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" alt="Supabase"> <img src="https://img.shields.io/badge/PostgreSQL-344454?style=flat-square&amp;logo=postgresql&amp;logoColor=EAF2F8" alt="PostgreSQL">
         <img src="https://img.shields.io/badge/MySQL-344454?style=flat-square&amp;logo=mysql&amp;logoColor=EAF2F8" alt="MySQL"> <img src="https://img.shields.io/badge/WebAuthn-344454?style=flat-square" alt="WebAuthn">
         <img src="https://img.shields.io/badge/JWT-344454?style=flat-square" alt="JWT">
-        <p><sub>VISIT JEJU BACKEND · PROJECT SOURCE</sub></p>
         <img src="https://img.shields.io/badge/Java-344454?style=flat-square&amp;logo=openjdk&amp;logoColor=EAF2F8" alt="Java"> <img src="https://img.shields.io/badge/Spring_Boot-344454?style=flat-square&amp;logo=springboot&amp;logoColor=6DB33F" alt="Spring Boot">
       </td>
     </tr>
