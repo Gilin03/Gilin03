@@ -1,272 +1,79 @@
-<div align="center">
+# Security Monitoring & Detection Engineering
 
-# 👋 Hi, I'm Taebin
+**Entry-level SOC Analyst · 신입 SOC / 보안관제 지원**
 
-### Security · Network · Backend · Automation
+보안 이벤트 수집과 로그 분석, Graylog 탐지 규칙, n8n 자동화 연동을 프로젝트 환경에서 구현하고 검증했습니다.
 
-보안과 네트워크를 중심으로
-**직접 구현하고, 테스트하고, 문제를 해결하며 배우고 있습니다.**
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-Gilin03-181717?style=for-the-badge\&logo=github)](https://github.com/Gilin03)
-
-</div>
+[Notion Portfolio](https://app.notion.com/p/413d401b317c813b90ded756a4458810) · [NEXUS WORK Web Portfolio](https://nexus-work-portfolio-site.vercel.app/) · [Featured Projects ↓](#featured-projects)
 
 ---
 
-## 👨‍💻 About Me
+## Featured Projects
 
-보안 기능을 직접 구현하고 실제 동작을 검증하는 과정에 관심이 있습니다.
+### NEXUS WORK
 
-단순히 기능을 만드는 것에서 끝내지 않고
-**인증 · 접근 제어 · 로그 · 자동화 · 네트워크**가 서로 어떻게 연결되는지 이해하는 것을 목표로 공부하고 있습니다.
+**4인 팀 통합 보안관제 · 로그 연동, 탐지 규칙, 자동화의 개인 담당**
 
-최근에는 **WebAuthn 패스키 인증**, **로그인 보안 이벤트 자동화**,
-**REST API와 데이터베이스를 활용한 보안 기능 구현** 등을 진행하고 있습니다.
+<a href="assets/projects/nexus-workflow.webp"><img src="assets/projects/nexus-workflow.webp" alt="NEXUS WORK의 실제 n8n 워크플로 화면" width="760"></a>
 
-```text
-Interested in
-├─ 🛡️ Security Monitoring
-├─ 🌐 Network Security
-├─ 🔐 Authentication & Access Control
-├─ ⚙️ Security Automation
-└─ 💻 Backend Development
-```
+- **담당:** Wazuh 호스트 로그 연동, Graylog R1–R12 탐지 규칙, n8n Ticket 처리와 AI-XDR 연결·흐름 검증
+- **흐름:** Wazuh / 보안 이벤트 → Graylog → n8n → AI-XDR 평가 → 관리자 검토
+- Suricata·pfSense·Flask·MySQL는 팀 전체 시스템 구성입니다. AI-XDR 평가 결과는 관리자 검토에 연결했으며, 권고 자체가 네트워크 차단 실행을 뜻하지 않습니다.
 
----
+[Repository](https://github.com/Gilin03/nexus_work) · [Details](https://app.notion.com/p/413d401b317c81cb980ed80b4fad7736) · [Demo](https://nexus-work-portfolio-site.vercel.app/)
 
-## 🛠 Tech Stack
+### SOC Threat Hunting & Detection Engineering
 
-### Security & Network
+**PCAP 및 SSH Honeypot 이벤트 분석 기반 Casebook**
 
-<p>
-  <img src="https://img.shields.io/badge/WebAuthn-3423A6?style=flat-square&logo=webauthn&logoColor=white">
-  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-</p>
+<a href="assets/projects/soc-port-scan.png"><img src="assets/projects/soc-port-scan.png" alt="CIC-IDS2017 PCAP에서 다양한 목적지 포트로 전송된 TCP SYN 패킷을 확인한 Wireshark 화면" width="620"></a>
 
-### Backend & Automation
+- CIC-IDS2017 PCAP에서 SYN → SYN/ACK → RST와 약 999개의 고유 목적지 TCP 포트를 관찰했습니다.
+- 별도 SSH Honeypot 145,425개 이벤트에서 반복 자격 증명 입력과 로그인 이후 명령 이벤트를 구분했습니다.
+- 초기 탐지 기준은 같은 Source–Destination의 60초 내 포트 100개 이상입니다. 전체 관찰값 999개와 다른 측정 범위의 설계 초안입니다.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white">
-  <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white">
-</p>
+[Repository](https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering) · [Details](https://app.notion.com/p/413d401b317c816ba396f7b96ab44b73)
 
-### Frontend
+### Login Defense Lab
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
-</p>
+**같은 모의 로그인 이벤트로 세 가지 탐지 정책을 비교한 개인 시뮬레이터**
 
-### Database & Infrastructure
+<a href="assets/projects/login-defense-lab.png"><img src="assets/projects/login-defense-lab.png" alt="IP 단일, 계정 단일, 다중 신호 로그인 탐지 정책을 비교하는 Login Defense Lab 화면" width="700"></a>
 
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-</p>
+- IP 단일·계정 단일·다중 신호 정책을 같은 모의 이벤트에 각각 적용했습니다.
+- 정의된 4개 공격 시나리오에서 각 10회 실행 중 한 번 이상 대응한 실행 비율 평균은 **100%**였습니다. 전체 공격 이벤트 차단률이나 실제 서비스 성능은 아닙니다.
+- 공유망 정상 시나리오의 정상 이벤트 중 **강제 차단률은 다중 신호 0%, IP 단일 64.6%**였습니다. 공격 실행 탐지율과는 별도 지표입니다.
 
-### Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
-</p>
+[Repository](https://github.com/Gilin03/login-defense-lab) · [Details](https://app.notion.com/p/413d401b317c810eb7ddd51cca0a91bf) · [Demo](https://login-defense-lab-psi.vercel.app/)
 
 ---
 
-## 🚀 Featured Projects
+## Technical Experience
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Monitoring / SIEM
+**Wazuh · Graylog** — NEXUS WORK에서 호스트 로그 전달 경로와 Graylog R1–R12 탐지 규칙을 연결했습니다.
 
-### 🔐 WebAuthn Passkey Authentication
+### Detection / Investigation
+**PCAP · Wireshark** — SOC Casebook에서 포트 탐색 패킷과 SSH Honeypot 이벤트를 분석했습니다. **Python** — Login Defense Lab에서 모의 이벤트 생성과 정책 비교에 사용했습니다. **Suricata**는 NEXUS WORK 팀 인프라에 포함된 구성 요소입니다.
 
-비밀번호 대신 **WebAuthn 패스키**를 이용해
-비공개 영역에 접근하는 인증 시스템입니다.
+### Security Automation
+**n8n · Webhook · REST API** — 경보 정규화, Ticket 생성·병합, AI-XDR API 요청과 결과 후속 흐름을 연결했습니다.
 
-**Key Points**
-
-* WebAuthn 등록 / 로그인
-* Challenge 기반 인증
-* 공개키 기반 서명 검증
-* 패스키 추가 / 삭제
-* 인증 사용자 전용 데이터
-* 세션 관리
-* Supabase Edge Function
-
-**Stack**
-
-`React` `Vite` `WebAuthn`
-`Supabase` `PostgreSQL`
-
-➡️ [Repository](https://github.com/Gilin03/webauthn-passkey-auth)
-
-</td>
-<td width="50%" valign="top">
-
-### 🚨 Login Security Automation
-
-로그인 보안 이벤트를 받아 위험도를 판정하고
-대응 과정을 자동화한 프로젝트입니다.
-
-**Flow**
-
-```text
-Python
-   ↓
-n8n Webhook
-   ↓
-Security Decision
-   ↓
-Slack / Discord / Telegram
-   ↓
-Flask REST API
-   ↓
-MySQL
-   ↓
-Security Dashboard
-```
-
-**Stack**
-
-`Python` `n8n` `Flask`
-`MySQL` `Docker`
-
-➡️ [Repository](https://github.com/Gilin03/loginbot)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Exchange Rate Dashboard
-
-외부 환율 API 데이터를 조회하고
-기간별 환율 변화를 시각화한 웹 프로젝트입니다.
-
-**Key Points**
-
-* 외부 API 연동
-* 환율 데이터 표시
-* 기간별 데이터 조회
-* 차트 시각화
-* API 장애 상황 테스트
-
-**Stack**
-
-`React` `Vite` `Recharts`
-`Supabase`
-
-➡️ [Repository](https://github.com/Gilin03/exchange-rate-dashboard)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎮 RUN! 30
-
-React와 Canvas를 활용한
-**30초 생존형 러너 게임**입니다.
-
-**Key Points**
-
-* Canvas 기반 게임 루프
-* 점프 / 숙이기 조작
-* 충돌 판정
-* 난이도 시스템
-* 플레이 기록 저장
-* 화면 효과 및 피드백
-
-**Stack**
-
-`React` `JavaScript` `Canvas API`
-
-➡️ [Repository](https://github.com/Gilin03/run30-canvas-runner)
-
-</td>
-</tr>
-</table>
+### Application Security
+**JavaScript · Node.js · Supabase Auth · JWT** — BYTE BACK에서 검증된 로그인 주체와 사용자별 메모 API 권한 검사를 연결했습니다.
 
 ---
 
-## 🔎 What I'm Learning
+## Additional Projects
 
-현재는 기능 구현 경험을 **보안 관점의 문제 해결 능력**으로 확장하고 있습니다.
-
-```text
-Security Monitoring
-      │
-      ├─ Log Analysis
-      ├─ Security Event Detection
-      └─ Incident Response Automation
-
-Network Security
-      │
-      ├─ TCP/IP
-      ├─ VLAN / Routing
-      ├─ ACL
-      └─ Network Troubleshooting
-
-Application Security
-      │
-      ├─ Authentication
-      ├─ Authorization
-      ├─ WebAuthn
-      └─ Access Control
-
-Automation
-      │
-      ├─ Python
-      ├─ n8n
-      └─ REST API
-```
+- **[BYTE BACK](https://github.com/Gilin03/choi-bujang-secret-vault)** — Vercel Functions의 Supabase Auth 세션·JWT 검증과 사용자별 메모 소유권 확인을 구현했습니다. [Notion 상세](https://app.notion.com/p/413d401b317c8123a66ae3f95e99e74c)
+- **[WebAuthn Passkey](https://github.com/Gilin03/webauthn-passkey-auth)** — Supabase Edge Function에서 WebAuthn challenge와 서명을 검증하고 세션을 처리합니다.
+- **[PlanDoSee Auth](https://github.com/Gilin03/PlanDoSee-Auth)** — Supabase Auth 기반 계획·실행·회고 앱입니다. DB 마이그레이션과 RLS 정책 파일은 저장소에 없으며 배포 환경에서 별도 구성이 필요합니다.
 
 ---
 
-## 🎯 Current Focus
+## Portfolio / Links
 
-> **Security Monitoring · Network Security · Security Automation**
+[Notion Portfolio](https://app.notion.com/p/413d401b317c813b90ded756a4458810) · [NEXUS WORK Repository](https://github.com/Gilin03/nexus_work) · [SOC Casebook](https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering) · [Login Defense Lab](https://github.com/Gilin03/login-defense-lab)
 
-로그를 단순히 확인하는 것에서 끝나는 것이 아니라,
-
-**이벤트 발생 → 탐지 → 판단 → 알림 → 대응 → 기록**
-
-으로 이어지는 전체 흐름을 직접 구현하며 공부하고 있습니다.
-
----
-
-## 📈 GitHub
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Gilin03&show_icons=true&hide_border=true&hide_title=true" height="160">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gilin03&layout=compact&hide_border=true" height="160">
-
-</div>
-
----
-
-<div align="center">
-
-### 🔐 Build · Test · Analyze · Improve
-
-기능이 **왜 동작하는지 이해하고**,
-문제가 생기면 **직접 원인을 찾아 해결할 수 있는 사람**을 목표로 하고 있습니다.
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Gilin03\&style=flat-square)
-
-</div>
+[NEXUS WORK Demo](https://nexus-work-portfolio-site.vercel.app/) · [Login Defense Lab Demo](https://login-defense-lab-psi.vercel.app/)
