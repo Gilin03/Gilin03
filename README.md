@@ -17,7 +17,8 @@
 
 ```yaml
 focus_areas:
-  - Security monitoring / SIEM
+  - Security monitoring
+    / SIEM
   - Detection engineering
   - Network traffic analysis
   - Security automation
