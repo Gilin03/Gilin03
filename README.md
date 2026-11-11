@@ -1,9 +1,9 @@
 <div align="center">
-  <p><sub>01 / SECURITY OPERATIONS PORTFOLIO</sub></p>
+  <p><sub>01 / ABOUT ME</sub></p>
   <h1>Hi, I'm Taebin.</h1>
-  <p><strong>Entry-level SOC Analyst</strong><br>Security Monitoring &amp; Detection Engineering</p>
-  <img src="assets/profile-header.svg" width="900" alt="Security workflow: collect events, analyze signals, define detections, and automate response workflows.">
-  <p>보안 이벤트를 수집·분석하고 탐지 규칙과 자동화 흐름으로 연결해 프로젝트 환경에서 검증했습니다.</p>
+  <p><strong>Entry-level SOC Analyst · Security Monitoring</strong></p>
+  <img src="assets/profile-header.svg" width="900" alt="Taebin Kim · Security · Network · Automation">
+  <p>보안과 네트워크를 중심으로 공부하고 있습니다. 직접 구현하고 분석하며 동작 원리를 확인하고, 문제가 생기면 로그와 실행 결과를 따라 원인과 해결 과정을 정리합니다.</p>
   <p>
     <a href="https://app.notion.com/p/413d401b317c813b90ded756a4458810"><img src="https://img.shields.io/badge/Notion-Portfolio-0B1424?style=flat-square&amp;logo=notion&amp;logoColor=74D8CF" alt="Notion Portfolio"></a>
     <a href="https://nexus-work-portfolio-site.vercel.app/"><img src="https://img.shields.io/badge/NEXUS_WORK-Web_Portfolio-244D62?style=flat-square&amp;logo=vercel&amp;logoColor=EAF2F8" alt="NEXUS WORK Web Portfolio"></a>
@@ -13,14 +13,13 @@
 
 ---
 
-## 02 / Focus Areas
+## 02 / Interests &amp; Skills
 
 ```yaml
-focus_areas:
-  - Security monitoring
-    / SIEM
+interests:
+  - Security monitoring & SIEM
+  - Network security & traffic analysis
   - Detection engineering
-  - Network traffic analysis
   - Security automation
 ```
 
@@ -73,26 +72,38 @@ focus_areas:
   <tbody>
     <tr>
       <td width="50%" valign="top">
-        <p><sub><strong>MONITORING / SIEM</strong></sub></p>
+        <p><sub><strong>SECURITY MONITORING / INVESTIGATION</strong></sub></p>
         <img src="https://img.shields.io/badge/Wazuh-17495A?style=flat-square&amp;logo=wazuh&amp;logoColor=74D8CF" alt="Wazuh"> <img src="https://img.shields.io/badge/Graylog-17495A?style=flat-square&amp;logo=graylog&amp;logoColor=74D8CF" alt="Graylog">
+        <img src="https://img.shields.io/badge/Wireshark-17495A?style=flat-square&amp;logo=wireshark&amp;logoColor=EAF2F8" alt="Wireshark">
       </td>
       <td width="50%" valign="top">
-        <p><sub><strong>DETECTION / INVESTIGATION</strong></sub></p>
-        <img src="https://img.shields.io/badge/Wireshark-245C85?style=flat-square&amp;logo=wireshark&amp;logoColor=EAF2F8" alt="Wireshark"> <img src="https://img.shields.io/badge/Python-245C85?style=flat-square&amp;logo=python&amp;logoColor=EAF2F8" alt="Python"> <img src="https://img.shields.io/badge/PCAP-245C85?style=flat-square" alt="PCAP">
+        <p><sub><strong>NETWORK / INFRASTRUCTURE</strong></sub></p>
+        <img src="https://img.shields.io/badge/TCP%2FIP-245C85?style=flat-square" alt="TCP/IP"> <img src="https://img.shields.io/badge/Docker-245C85?style=flat-square&amp;logo=docker&amp;logoColor=EAF2F8" alt="Docker">
+        <p><sub>NEXUS team environment</sub></p>
+        <img src="https://img.shields.io/badge/Suricata-245C85?style=flat-square" alt="Suricata — team environment"> <img src="https://img.shields.io/badge/pfSense-245C85?style=flat-square&amp;logo=pfsense&amp;logoColor=EAF2F8" alt="pfSense — team environment">
       </td>
     </tr>
     <tr>
       <td width="50%" valign="top">
-        <p><sub><strong>SECURITY AUTOMATION</strong></sub></p>
-        <img src="https://img.shields.io/badge/n8n-286E68?style=flat-square&amp;logo=n8n&amp;logoColor=EAF2F8" alt="n8n"> <img src="https://img.shields.io/badge/Webhook-286E68?style=flat-square" alt="Webhook"> <img src="https://img.shields.io/badge/REST_API-286E68?style=flat-square" alt="REST API">
+        <p><sub><strong>AUTOMATION / BACKEND</strong></sub></p>
+        <img src="https://img.shields.io/badge/Python-286E68?style=flat-square&amp;logo=python&amp;logoColor=EAF2F8" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-286E68?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript">
+        <img src="https://img.shields.io/badge/Node.js-286E68?style=flat-square&amp;logo=nodedotjs&amp;logoColor=83CD29" alt="Node.js"> <img src="https://img.shields.io/badge/Flask-286E68?style=flat-square&amp;logo=flask&amp;logoColor=EAF2F8" alt="Flask">
+        <img src="https://img.shields.io/badge/n8n-286E68?style=flat-square&amp;logo=n8n&amp;logoColor=EAF2F8" alt="n8n"> <img src="https://img.shields.io/badge/REST_API-286E68?style=flat-square" alt="REST API">
       </td>
       <td width="50%" valign="top">
-        <p><sub><strong>APPLICATION / DATA</strong></sub></p>
-        <img src="https://img.shields.io/badge/JavaScript-344454?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/Node.js-344454?style=flat-square&amp;logo=nodedotjs&amp;logoColor=83CD29" alt="Node.js"> <img src="https://img.shields.io/badge/Supabase-344454?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" alt="Supabase"> <img src="https://img.shields.io/badge/MySQL-344454?style=flat-square&amp;logo=mysql&amp;logoColor=EAF2F8" alt="MySQL">
+        <p><sub><strong>APPLICATION / DATA / IDENTITY</strong></sub></p>
+        <img src="https://img.shields.io/badge/React-344454?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Tailwind_CSS-344454?style=flat-square&amp;logo=tailwindcss&amp;logoColor=38BDF8" alt="Tailwind CSS">
+        <img src="https://img.shields.io/badge/Supabase-344454?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" alt="Supabase"> <img src="https://img.shields.io/badge/PostgreSQL-344454?style=flat-square&amp;logo=postgresql&amp;logoColor=EAF2F8" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/MySQL-344454?style=flat-square&amp;logo=mysql&amp;logoColor=EAF2F8" alt="MySQL"> <img src="https://img.shields.io/badge/WebAuthn-344454?style=flat-square" alt="WebAuthn">
+        <img src="https://img.shields.io/badge/JWT-344454?style=flat-square" alt="JWT">
+        <p><sub>VISIT JEJU BACKEND · PROJECT SOURCE</sub></p>
+        <img src="https://img.shields.io/badge/Java-344454?style=flat-square&amp;logo=openjdk&amp;logoColor=EAF2F8" alt="Java"> <img src="https://img.shields.io/badge/Spring_Boot-344454?style=flat-square&amp;logo=springboot&amp;logoColor=6DB33F" alt="Spring Boot">
       </td>
     </tr>
   </tbody>
 </table>
+
+<p><sub>Suricata and pfSense are part of the NEXUS WORK team environment; Java and Spring Boot are evidenced in the Visit Jeju Backend repository.</sub></p>
 
 ---
 
@@ -101,6 +112,9 @@ focus_areas:
 - [BYTE BACK](https://github.com/Gilin03/choi-bujang-secret-vault) — Supabase Auth JWT and per-user ownership checks in Vercel Functions.
 - [WebAuthn Passkey](https://github.com/Gilin03/webauthn-passkey-auth) — Challenge and signature verification in a Supabase Edge Function.
 - [PlanDoSee Auth](https://github.com/Gilin03/PlanDoSee-Auth) — Supabase Auth app; database migrations and RLS require environment setup outside the repository.
+- [n8n Security Alert Bot](https://github.com/Gilin03/n8n-security-alert-bot) — Login alert routing, role-controlled actions, and event records.
+- [loginbot](https://github.com/Gilin03/loginbot) — Python alert sender with n8n decisions and a Flask/MySQL dashboard.
+- [Visit Jeju Backend](https://github.com/Gilin03/Visit_Jeju_Backend) — Java and Spring Boot project source.
 
 ---
 
