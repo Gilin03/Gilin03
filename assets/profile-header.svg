@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="104" viewBox="0 0 900 104" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Taebin Kim · Security · Network · Automation</title>
+  <desc id="desc">A restrained typographic profile mark for Taebin Kim and his areas of interest.</desc>
+  <path d="M104 18H796 M104 86H796" stroke="#687780" stroke-opacity=".55" stroke-width="1"/>
+  <path d="M104 18v12 M796 74v12" stroke="#397B76" stroke-width="2" stroke-linecap="round"/>
+  <text x="450" y="47" fill="#687780" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="600" letter-spacing="3" text-anchor="middle">TAEBIN KIM</text>
+  <text x="450" y="73" fill="#397B76" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="2" text-anchor="middle">SECURITY <tspan fill="#687780">·</tspan> NETWORK <tspan fill="#687780">·</tspan> AUTOMATION</text>
+</svg>

@@ -1,272 +1,125 @@
 <div align="center">
-
-# 👋 Hi, I'm Taebin
-
-### Security · Network · Backend · Automation
-
-보안과 네트워크를 중심으로
-**직접 구현하고, 테스트하고, 문제를 해결하며 배우고 있습니다.**
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-Gilin03-181717?style=for-the-badge\&logo=github)](https://github.com/Gilin03)
-
+  <p><sub>01 / ABOUT ME</sub></p>
+  <h1>Hi, I'm Taebin.</h1>
+  <p><strong>Entry-level SOC Analyst · Security Monitoring</strong></p>
+  <img src="assets/profile-header.svg" width="900" alt="Taebin Kim · Security · Network · Automation">
+  <p>보안과 네트워크를 중심으로 공부하고 있습니다. 직접 구현하고 분석하며 동작 원리를 확인하고, 문제가 생기면 로그와 실행 결과를 따라 원인과 해결 과정을 정리합니다.</p>
+  <p>
+    <a href="https://app.notion.com/p/413d401b317c813b90ded756a4458810"><img src="https://img.shields.io/badge/Notion-Portfolio-0B1424?style=flat-square&amp;logo=notion&amp;logoColor=74D8CF" alt="Notion Portfolio"></a>
+    <a href="https://nexus-work-portfolio-site.vercel.app/"><img src="https://img.shields.io/badge/NEXUS_WORK-Web_Portfolio-244D62?style=flat-square&amp;logo=vercel&amp;logoColor=EAF2F8" alt="NEXUS WORK Web Portfolio"></a>
+    <a href="#featured-projects"><img src="https://img.shields.io/badge/Featured-Projects-286E68?style=flat-square&amp;logo=github&amp;logoColor=EAF2F8" alt="Jump to Featured Projects"></a>
+  </p>
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## 02 / Interests &amp; Skills
 
-보안 기능을 직접 구현하고 실제 동작을 검증하는 과정에 관심이 있습니다.
-
-단순히 기능을 만드는 것에서 끝내지 않고
-**인증 · 접근 제어 · 로그 · 자동화 · 네트워크**가 서로 어떻게 연결되는지 이해하는 것을 목표로 공부하고 있습니다.
-
-최근에는 **WebAuthn 패스키 인증**, **로그인 보안 이벤트 자동화**,
-**REST API와 데이터베이스를 활용한 보안 기능 구현** 등을 진행하고 있습니다.
-
-```text
-Interested in
-├─ 🛡️ Security Monitoring
-├─ 🌐 Network Security
-├─ 🔐 Authentication & Access Control
-├─ ⚙️ Security Automation
-└─ 💻 Backend Development
+```yaml
+interests:
+  - Security monitoring & SIEM
+  - Network security & traffic analysis
+  - Detection engineering
+  - Security automation
 ```
 
 ---
 
-## 🛠 Tech Stack
+<p><sub>03 / SELECTED WORK</sub></p>
 
-### Security & Network
+## Featured Projects
 
-<p>
-  <img src="https://img.shields.io/badge/WebAuthn-3423A6?style=flat-square&logo=webauthn&logoColor=white">
-  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-</p>
-
-### Backend & Automation
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white">
-  <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white">
-</p>
-
-### Frontend
-
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
-</p>
-
-### Database & Infrastructure
-
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-</p>
-
-### Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
-</p>
-
----
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🔐 WebAuthn Passkey Authentication
-
-비밀번호 대신 **WebAuthn 패스키**를 이용해
-비공개 영역에 접근하는 인증 시스템입니다.
-
-**Key Points**
-
-* WebAuthn 등록 / 로그인
-* Challenge 기반 인증
-* 공개키 기반 서명 검증
-* 패스키 추가 / 삭제
-* 인증 사용자 전용 데이터
-* 세션 관리
-* Supabase Edge Function
-
-**Stack**
-
-`React` `Vite` `WebAuthn`
-`Supabase` `PostgreSQL`
-
-➡️ [Repository](https://github.com/Gilin03/webauthn-passkey-auth)
-
-</td>
-<td width="50%" valign="top">
-
-### 🚨 Login Security Automation
-
-로그인 보안 이벤트를 받아 위험도를 판정하고
-대응 과정을 자동화한 프로젝트입니다.
-
-**Flow**
-
-```text
-Python
-   ↓
-n8n Webhook
-   ↓
-Security Decision
-   ↓
-Slack / Discord / Telegram
-   ↓
-Flask REST API
-   ↓
-MySQL
-   ↓
-Security Dashboard
-```
-
-**Stack**
-
-`Python` `n8n` `Flask`
-`MySQL` `Docker`
-
-➡️ [Repository](https://github.com/Gilin03/loginbot)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Exchange Rate Dashboard
-
-외부 환율 API 데이터를 조회하고
-기간별 환율 변화를 시각화한 웹 프로젝트입니다.
-
-**Key Points**
-
-* 외부 API 연동
-* 환율 데이터 표시
-* 기간별 데이터 조회
-* 차트 시각화
-* API 장애 상황 테스트
-
-**Stack**
-
-`React` `Vite` `Recharts`
-`Supabase`
-
-➡️ [Repository](https://github.com/Gilin03/exchange-rate-dashboard)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎮 RUN! 30
-
-React와 Canvas를 활용한
-**30초 생존형 러너 게임**입니다.
-
-**Key Points**
-
-* Canvas 기반 게임 루프
-* 점프 / 숙이기 조작
-* 충돌 판정
-* 난이도 시스템
-* 플레이 기록 저장
-* 화면 효과 및 피드백
-
-**Stack**
-
-`React` `JavaScript` `Canvas API`
-
-➡️ [Repository](https://github.com/Gilin03/run30-canvas-runner)
-
-</td>
-</tr>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td colspan="2" valign="top">
+        <p><sub><strong>01 / FLAGSHIP · TEAM PROJECT</strong></sub></p>
+        <h2>NEXUS WORK</h2>
+        <p><strong>Security Monitoring &amp; AI-XDR Integration</strong></p>
+        <p>4인 팀에서 Wazuh 호스트 로그 연동, Graylog R1–R12 탐지 규칙, n8n Ticket 처리와 AI-XDR 분석 흐름의 연결·검증을 맡았습니다.</p>
+        <p><code>Wazuh</code> &nbsp;→&nbsp; <code>Graylog</code> &nbsp;→&nbsp; <code>n8n</code> &nbsp;→&nbsp; <code>AI-XDR</code></p>
+        <p><small>AI-XDR 분석은 관리자 검토 흐름으로 전달하며 자동 네트워크 차단은 하지 않습니다. Suricata, pfSense, Flask, MySQL은 팀 인프라입니다.</small></p>
+        <hr>
+        <p><a href="https://github.com/Gilin03/nexus_work">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c81cb980ed80b4fad7736">Case Study</a> &nbsp;·&nbsp; <a href="https://nexus-work-portfolio-site.vercel.app/">Demo</a></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top">
+        <p><sub><strong>02 / PERSONAL PROJECT</strong></sub></p>
+        <h3>SOC Threat Hunting</h3>
+        <p><strong>Detection Engineering · PCAP &amp; SSH</strong></p>
+        <p>CIC-IDS2017 PCAP과 SSH Honeypot 이벤트를 분석해 공격 흐름과 로그인 후 행위를 분류하고 초기 탐지 기준을 설계했습니다.</p>
+        <p><code>Wireshark</code> · <code>PCAP</code> · <code>SSH</code> · <code>Python</code></p>
+        <p><a href="https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c816ba396f7b96ab44b73">Case Study</a></p>
+      </td>
+      <td width="50%" valign="top">
+        <p><sub><strong>03 / PERSONAL PROJECT · SIMULATION</strong></sub></p>
+        <h3>Login Defense Lab</h3>
+        <p><strong>Detection Policy Evaluation</strong></p>
+        <p>같은 모의 로그인 이벤트에 IP·계정 단일 및 다중 신호 정책을 적용해 탐지 결과와 정상 사용자 영향을 비교했습니다.</p>
+        <p><code>Python</code> · <code>React</code> · <code>Detection Policy</code></p>
+        <p><a href="https://github.com/Gilin03/login-defense-lab">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c810eb7ddd51cca0a91bf">Case Study</a> &nbsp;·&nbsp; <a href="https://login-defense-lab-psi.vercel.app/">Demo</a></p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
 
-## 🔎 What I'm Learning
+## 04 / Tech Stack
 
-현재는 기능 구현 경험을 **보안 관점의 문제 해결 능력**으로 확장하고 있습니다.
+<table width="100%">
+  <tbody>
+    <tr>
+      <td width="50%" valign="top">
+        <p><sub><strong>SECURITY MONITORING / INVESTIGATION</strong></sub></p>
+        <img src="https://img.shields.io/badge/Wazuh-17495A?style=flat-square&amp;logo=wazuh&amp;logoColor=74D8CF" alt="Wazuh"> <img src="https://img.shields.io/badge/Graylog-17495A?style=flat-square&amp;logo=graylog&amp;logoColor=74D8CF" alt="Graylog">
+        <img src="https://img.shields.io/badge/Wireshark-17495A?style=flat-square&amp;logo=wireshark&amp;logoColor=EAF2F8" alt="Wireshark">
+      </td>
+      <td width="50%" valign="top">
+        <p><sub><strong>NETWORK / INFRASTRUCTURE</strong></sub></p>
+        <img src="https://img.shields.io/badge/TCP%2FIP-245C85?style=flat-square" alt="TCP/IP"> <img src="https://img.shields.io/badge/Docker-245C85?style=flat-square&amp;logo=docker&amp;logoColor=EAF2F8" alt="Docker">
+        <p><sub>NEXUS team environment</sub></p>
+        <img src="https://img.shields.io/badge/Suricata-245C85?style=flat-square" alt="Suricata — team environment"> <img src="https://img.shields.io/badge/pfSense-245C85?style=flat-square&amp;logo=pfsense&amp;logoColor=EAF2F8" alt="pfSense — team environment">
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top">
+        <p><sub><strong>AUTOMATION / BACKEND</strong></sub></p>
+        <img src="https://img.shields.io/badge/Python-286E68?style=flat-square&amp;logo=python&amp;logoColor=EAF2F8" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-286E68?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript">
+        <img src="https://img.shields.io/badge/Node.js-286E68?style=flat-square&amp;logo=nodedotjs&amp;logoColor=83CD29" alt="Node.js"> <img src="https://img.shields.io/badge/Flask-286E68?style=flat-square&amp;logo=flask&amp;logoColor=EAF2F8" alt="Flask">
+        <img src="https://img.shields.io/badge/n8n-286E68?style=flat-square&amp;logo=n8n&amp;logoColor=EAF2F8" alt="n8n"> <img src="https://img.shields.io/badge/REST_API-286E68?style=flat-square" alt="REST API">
+      </td>
+      <td width="50%" valign="top">
+        <p><sub><strong>APPLICATION / DATA / IDENTITY</strong></sub></p>
+        <img src="https://img.shields.io/badge/React-344454?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Tailwind_CSS-344454?style=flat-square&amp;logo=tailwindcss&amp;logoColor=38BDF8" alt="Tailwind CSS">
+        <img src="https://img.shields.io/badge/Supabase-344454?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" alt="Supabase"> <img src="https://img.shields.io/badge/PostgreSQL-344454?style=flat-square&amp;logo=postgresql&amp;logoColor=EAF2F8" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/MySQL-344454?style=flat-square&amp;logo=mysql&amp;logoColor=EAF2F8" alt="MySQL"> <img src="https://img.shields.io/badge/WebAuthn-344454?style=flat-square" alt="WebAuthn">
+        <img src="https://img.shields.io/badge/JWT-344454?style=flat-square" alt="JWT">
+        <p><sub>VISIT JEJU BACKEND · PROJECT SOURCE</sub></p>
+        <img src="https://img.shields.io/badge/Java-344454?style=flat-square&amp;logo=openjdk&amp;logoColor=EAF2F8" alt="Java"> <img src="https://img.shields.io/badge/Spring_Boot-344454?style=flat-square&amp;logo=springboot&amp;logoColor=6DB33F" alt="Spring Boot">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-```text
-Security Monitoring
-      │
-      ├─ Log Analysis
-      ├─ Security Event Detection
-      └─ Incident Response Automation
-
-Network Security
-      │
-      ├─ TCP/IP
-      ├─ VLAN / Routing
-      ├─ ACL
-      └─ Network Troubleshooting
-
-Application Security
-      │
-      ├─ Authentication
-      ├─ Authorization
-      ├─ WebAuthn
-      └─ Access Control
-
-Automation
-      │
-      ├─ Python
-      ├─ n8n
-      └─ REST API
-```
-
----
-
-## 🎯 Current Focus
-
-> **Security Monitoring · Network Security · Security Automation**
-
-로그를 단순히 확인하는 것에서 끝나는 것이 아니라,
-
-**이벤트 발생 → 탐지 → 판단 → 알림 → 대응 → 기록**
-
-으로 이어지는 전체 흐름을 직접 구현하며 공부하고 있습니다.
+<p><sub>Suricata and pfSense are part of the NEXUS WORK team environment; Java and Spring Boot are evidenced in the Visit Jeju Backend repository.</sub></p>
 
 ---
 
-## 📈 GitHub
+## 05 / Additional Projects
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Gilin03&show_icons=true&hide_border=true&hide_title=true" height="160">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gilin03&layout=compact&hide_border=true" height="160">
-
-</div>
+- [BYTE BACK](https://github.com/Gilin03/choi-bujang-secret-vault) — Supabase Auth JWT and per-user ownership checks in Vercel Functions.
+- [WebAuthn Passkey](https://github.com/Gilin03/webauthn-passkey-auth) — Challenge and signature verification in a Supabase Edge Function.
+- [PlanDoSee Auth](https://github.com/Gilin03/PlanDoSee-Auth) — Supabase Auth app; database migrations and RLS require environment setup outside the repository.
+- [n8n Security Alert Bot](https://github.com/Gilin03/n8n-security-alert-bot) — Login alert routing, role-controlled actions, and event records.
+- [loginbot](https://github.com/Gilin03/loginbot) — Python alert sender with n8n decisions and a Flask/MySQL dashboard.
+- [Visit Jeju Backend](https://github.com/Gilin03/Visit_Jeju_Backend) — Java and Spring Boot project source.
 
 ---
 
-<div align="center">
+## 06 / Portfolio Links
 
-### 🔐 Build · Test · Analyze · Improve
+[Notion Portfolio](https://app.notion.com/p/413d401b317c813b90ded756a4458810) &nbsp;·&nbsp; [NEXUS WORK Web Portfolio](https://nexus-work-portfolio-site.vercel.app/) &nbsp;·&nbsp; [Login Defense Lab Demo](https://login-defense-lab-psi.vercel.app/)
 
-기능이 **왜 동작하는지 이해하고**,
-문제가 생기면 **직접 원인을 찾아 해결할 수 있는 사람**을 목표로 하고 있습니다.
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Gilin03\&style=flat-square)
-
-</div>
+[NEXUS WORK Repository](https://github.com/Gilin03/nexus_work) &nbsp;·&nbsp; [SOC Casebook](https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering) &nbsp;·&nbsp; [Login Defense Lab Repository](https://github.com/Gilin03/login-defense-lab)
