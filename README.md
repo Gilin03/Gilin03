@@ -101,7 +101,6 @@ interests:
   </tbody>
 </table>
 
-<p><sub>Suricata and pfSense are part of the NEXUS WORK team environment; Java and Spring Boot are evidenced in the Visit Jeju Backend repository.</sub></p>
 
 ---
 
