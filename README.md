@@ -45,8 +45,6 @@
         <h3>Login Defense Lab</h3>
         <p><strong>Detection Policy Evaluation</strong></p>
         <p>5개 시나리오를 10회씩 실행하고 IP 단일·계정 단일·다중 신호 정책을 150회 평가했습니다. 공격 탐지와 정상 사용자 강제 차단을 별도 지표로 비교했습니다.</p>
-        <p><strong>핵심 결과:</strong> 통제된 모의 데이터에서 다중 신호 정책은 4개 공격 시나리오의 실행 탐지율 평균 100%, 공유 네트워크 정상 사용의 강제 차단률 0%를 기록했습니다.</p>
-        <p><small>실행 탐지율은 한 실행에서 한 번 이상 대응이 발생한 비율이며, 개별 이벤트 차단율과 구분합니다.</small></p>
         <p><code>Python</code> · <code>React</code> · <code>Detection Policy</code></p>
         <p><a href="https://github.com/Gilin03/login-defense-lab">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c810eb7ddd51cca0a91bf">Case Study</a> &nbsp;·&nbsp; <a href="https://login-defense-lab-psi.vercel.app/">Demo</a></p>
       </td>
