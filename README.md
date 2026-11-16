@@ -1,9 +1,9 @@
 <div align="center">
-  <p><sub>01 / ABOUT ME</sub></p>
-  <h1>Hi, I'm Taebin.</h1>
-  <p><strong>Entry-level SOC Analyst · Security Monitoring</strong></p>
+  <p><sub>01 / PROFILE</sub></p>
+  <h1>Security Operations &amp; Network Security</h1>
+  <p><strong>Entry-level · SOC / SIEM · Detection Engineering · Automation</strong></p>
   <img src="assets/profile-header.svg" width="900" alt="Taebin Kim · Security · Network · Automation">
-  <p>보안과 네트워크를 중심으로 공부하고 있습니다. 직접 구현하고 분석하며 동작 원리를 확인하고, 문제가 생기면 로그와 실행 결과를 따라 원인과 해결 과정을 정리합니다.</p>
+  <p>보안 운영과 네트워크 보안을 중심으로 로그와 트래픽을 분석하고, 탐지·알림 흐름을 프로젝트로 구현해 왔습니다. 프로젝트에서는 맡은 역할과 검증 범위를 구분해 기록합니다.</p>
   <p>
     <a href="https://app.notion.com/p/413d401b317c813b90ded756a4458810"><img src="https://img.shields.io/badge/Notion-Portfolio-0B1424?style=flat-square&amp;logo=notion&amp;logoColor=74D8CF" alt="Notion Portfolio"></a>
     <a href="https://nexus-work-portfolio-site.vercel.app/"><img src="https://img.shields.io/badge/NEXUS_WORK-Web_Portfolio-244D62?style=flat-square&amp;logo=vercel&amp;logoColor=EAF2F8" alt="NEXUS WORK Web Portfolio"></a>
@@ -13,19 +13,7 @@
 
 ---
 
-## 02 / Interests &amp; Skills
-
-```yaml
-interests:
-  - Security monitoring & SIEM
-  - Network security & traffic analysis
-  - Detection engineering
-  - Security automation
-```
-
----
-
-<p><sub>03 / SELECTED WORK</sub></p>
+<p><sub>02 / SELECTED WORK</sub></p>
 
 ## Featured Projects
 
@@ -36,27 +24,27 @@ interests:
         <p><sub><strong>01 / FLAGSHIP · TEAM PROJECT</strong></sub></p>
         <h2>NEXUS WORK</h2>
         <p><strong>Security Monitoring &amp; AI-XDR Integration</strong></p>
-        <p>4인 팀에서 Wazuh 호스트 로그 연동, Graylog R1–R12 탐지 규칙, n8n Ticket 처리와 AI-XDR 분석 흐름의 연결·검증을 맡았습니다.</p>
-        <p><code>Wazuh</code> &nbsp;→&nbsp; <code>Graylog</code> &nbsp;→&nbsp; <code>n8n</code> &nbsp;→&nbsp; <code>AI-XDR</code></p>
-        <p><small>AI-XDR 분석은 관리자 검토 흐름으로 전달하며 자동 네트워크 차단은 하지 않습니다. Suricata, pfSense, Flask, MySQL은 팀 인프라입니다.</small></p>
+        <p>4인 팀 프로젝트에서 Wazuh 호스트 로그 연동, Graylog R1–R12 탐지 규칙 설정·검증, Published n8n workflow의 Ticket 처리와 AI-XDR 연결을 담당했습니다.</p>
+        <p>AI-XDR 결과는 관리자 검토·승인 흐름으로 전달됩니다.</p>
+        <p><code>Wazuh</code> &nbsp;→&nbsp; <code>Graylog</code> &nbsp;→&nbsp; <code>n8n</code> &nbsp;→&nbsp; <code>AI-XDR</code> &nbsp;→&nbsp; <code>Admin Review</code></p>
         <hr>
         <p><a href="https://github.com/Gilin03/nexus_work">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c81cb980ed80b4fad7736">Case Study</a> &nbsp;·&nbsp; <a href="https://nexus-work-portfolio-site.vercel.app/">Demo</a></p>
       </td>
     </tr>
     <tr>
       <td width="50%" valign="top">
-        <p><sub><strong>02 / PERSONAL PROJECT</strong></sub></p>
+        <p><sub><strong>02 / PERSONAL PROJECT · CASEBOOK</strong></sub></p>
         <h3>SOC Threat Hunting</h3>
-        <p><strong>Detection Engineering · PCAP &amp; SSH</strong></p>
-        <p>CIC-IDS2017 PCAP과 SSH Honeypot 이벤트를 분석해 공격 흐름과 로그인 후 행위를 분류하고 초기 탐지 기준을 설계했습니다.</p>
+        <p><strong>PCAP Analysis · SSH Honeypot Investigation</strong></p>
+        <p>CIC-IDS2017 PCAP에서 포트 스캔 흐름을 분석하고, SSH Honeypot의 145,425개 이벤트에서 반복 인증 시도와 동일 Session의 로그인 후 명령을 추적했습니다. 관찰 근거와 판단을 분리해 탐지 아이디어를 정리했습니다.</p>
         <p><code>Wireshark</code> · <code>PCAP</code> · <code>SSH</code> · <code>Python</code></p>
-        <p><a href="https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c816ba396f7b96ab44b73">Case Study</a></p>
+        <p><a href="https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering">Repository</a> &nbsp;·&nbsp; <a href="https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering/tree/main/cases/case01-portscan">CASE-01 · PCAP</a> &nbsp;·&nbsp; <a href="https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering/blob/main/cases/case02-ssh-bruteforce/README.md">CASE-02 · SSH</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c816ba396f7b96ab44b73">Case Study</a></p>
       </td>
       <td width="50%" valign="top">
         <p><sub><strong>03 / PERSONAL PROJECT · SIMULATION</strong></sub></p>
         <h3>Login Defense Lab</h3>
         <p><strong>Detection Policy Evaluation</strong></p>
-        <p>같은 모의 로그인 이벤트에 IP·계정 단일 및 다중 신호 정책을 적용해 탐지 결과와 정상 사용자 영향을 비교했습니다.</p>
+        <p>5개 시나리오를 10회씩 실행하고 IP 단일·계정 단일·다중 신호 정책을 150회 평가했습니다. 공격 탐지와 정상 사용자 강제 차단을 별도 지표로 비교했습니다.</p>
         <p><code>Python</code> · <code>React</code> · <code>Detection Policy</code></p>
         <p><a href="https://github.com/Gilin03/login-defense-lab">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c810eb7ddd51cca0a91bf">Case Study</a> &nbsp;·&nbsp; <a href="https://login-defense-lab-psi.vercel.app/">Demo</a></p>
       </td>
@@ -66,18 +54,20 @@ interests:
 
 ---
 
-## 04 / Tech Stack
+## 03 / Tech Stack
+
+<p><small>기술은 팀 프로젝트와 개인 프로젝트에서 사용한 역할에 따라 정리했습니다.</small></p>
 
 <table width="100%">
   <tbody>
     <tr>
       <td width="50%" valign="top">
-        <p><sub><strong>SECURITY MONITORING / INVESTIGATION</strong></sub></p>
+        <p><sub><strong>SECURITY MONITORING / ANALYSIS</strong></sub></p>
         <img src="https://img.shields.io/badge/Wazuh-17495A?style=flat-square&amp;logo=wazuh&amp;logoColor=74D8CF" alt="Wazuh"> <img src="https://img.shields.io/badge/Graylog-17495A?style=flat-square&amp;logo=graylog&amp;logoColor=74D8CF" alt="Graylog">
         <img src="https://img.shields.io/badge/Wireshark-17495A?style=flat-square&amp;logo=wireshark&amp;logoColor=EAF2F8" alt="Wireshark">
       </td>
       <td width="50%" valign="top">
-        <p><sub><strong>NETWORK / INFRASTRUCTURE</strong></sub></p>
+        <p><sub><strong>NETWORK / TEAM ENVIRONMENT</strong></sub></p>
         <img src="https://img.shields.io/badge/TCP%2FIP-245C85?style=flat-square" alt="TCP/IP"> <img src="https://img.shields.io/badge/Docker-245C85?style=flat-square&amp;logo=docker&amp;logoColor=EAF2F8" alt="Docker">
         <img src="https://img.shields.io/badge/Suricata-245C85?style=flat-square" alt="Suricata — team environment"> <img src="https://img.shields.io/badge/pfSense-245C85?style=flat-square&amp;logo=pfsense&amp;logoColor=EAF2F8" alt="pfSense — team environment">
       </td>
@@ -101,22 +91,11 @@ interests:
   </tbody>
 </table>
 
-
 ---
 
-## 05 / Additional Projects
+## 04 / Additional Projects
 
-- [BYTE BACK](https://github.com/Gilin03/choi-bujang-secret-vault) — Supabase Auth JWT and per-user ownership checks in Vercel Functions.
-- [WebAuthn Passkey](https://github.com/Gilin03/webauthn-passkey-auth) — Challenge and signature verification in a Supabase Edge Function.
-- [PlanDoSee Auth](https://github.com/Gilin03/PlanDoSee-Auth) — Supabase Auth app; database migrations and RLS require environment setup outside the repository.
-- [n8n Security Alert Bot](https://github.com/Gilin03/n8n-security-alert-bot) — Login alert routing, role-controlled actions, and event records.
-- [loginbot](https://github.com/Gilin03/loginbot) — Python alert sender with n8n decisions and a Flask/MySQL dashboard.
-- [Visit Jeju Backend](https://github.com/Gilin03/Visit_Jeju_Backend) — Java and Spring Boot project source.
-
----
-
-## 06 / Portfolio Links
-
-[Notion Portfolio](https://app.notion.com/p/413d401b317c813b90ded756a4458810) &nbsp;·&nbsp; [NEXUS WORK Web Portfolio](https://nexus-work-portfolio-site.vercel.app/) &nbsp;·&nbsp; [Login Defense Lab Demo](https://login-defense-lab-psi.vercel.app/)
-
-[NEXUS WORK Repository](https://github.com/Gilin03/nexus_work) &nbsp;·&nbsp; [SOC Casebook](https://github.com/Gilin03/SOC-Threat-Hunting-Detection-Engineering) &nbsp;·&nbsp; [Login Defense Lab Repository](https://github.com/Gilin03/login-defense-lab)
+- [Login Alert Automation](https://github.com/Gilin03/n8n-security-alert-bot) · [loginbot](https://github.com/Gilin03/loginbot) — n8n 로그인 경보 흐름과 Flask/MySQL 이벤트 대시보드.
+- [WebAuthn Passkey](https://github.com/Gilin03/webauthn-passkey-auth) — Supabase Edge Function에서 challenge와 signature를 검증하는 패스키 인증.
+- [BYTE BACK](https://github.com/Gilin03/choi-bujang-secret-vault) — Vercel Functions의 JWT 검증과 사용자별 데이터 접근 제어.
+- [Visit Jeju Backend](https://github.com/Gilin03/Visit_Jeju_Backend) — Java·Spring Boot 기반 백엔드 프로젝트.
