@@ -25,7 +25,7 @@
         <h2>NEXUS WORK</h2>
         <p><strong>Security Monitoring &amp; AI-XDR Integration</strong></p>
         <p>4인 팀 프로젝트에서 Wazuh 호스트 로그 연동, Graylog R1–R12 탐지 규칙 설정·검증, Published n8n workflow의 Ticket 처리와 AI-XDR 연결을 담당했습니다.</p>
-        <p>AI-XDR 결과는 관리자 검토·승인 흐름으로 전달됩니다. Suricata와 pfSense는 팀 인프라 구성 요소입니다.</p>
+        <p>AI-XDR 결과는 관리자 검토·승인 흐름으로 전달됩니다.</p>
         <p><code>Wazuh</code> &nbsp;→&nbsp; <code>Graylog</code> &nbsp;→&nbsp; <code>n8n</code> &nbsp;→&nbsp; <code>AI-XDR</code> &nbsp;→&nbsp; <code>Admin Review</code></p>
         <hr>
         <p><a href="https://github.com/Gilin03/nexus_work">Repository</a> &nbsp;·&nbsp; <a href="https://app.notion.com/p/413d401b317c81cb980ed80b4fad7736">Case Study</a> &nbsp;·&nbsp; <a href="https://nexus-work-portfolio-site.vercel.app/">Demo</a></p>
